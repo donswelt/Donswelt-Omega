@@ -1,22 +1,22 @@
 {
-    "title": "Donsωelt.de",
-    "urlslash": "https://donswelt.de/",
-    "url": "https://donswelt.de",
-    "description": "Texthäppchen über Bildschirmunterhaltung.",
+    "title": "You blog's name",
+    "urlslash": "https://yoururl.de/",
+    "url": "https://yoururl.de",
+    "description": "Your blog's description",
     "feed": {
-      "subtitle": "Texthäppchen über Bildschirmunterhaltung",
+      "subtitle": "Your blog's description",
       "filename": "feed.xml",
       "path": "/",
-      "id": "https://donswelt.de/"
+      "id": "https://yoururl.de/"
     },
     "jsonfeed": {
       "path": "/feed.json",
-      "url": "https://donswelt.de/feed.json"
+      "url": "https://yoururl.de/feed.json"
     },
     "author": {
-      "name": "Torsten",
-      "email": "thartmann@posteo.de",
-      "url": "https://donswelt.de/about-me/"
+      "name": "Your name",
+      "email": "yourmail@posteo.de",
+      "url": "https://yoururl.de/about-me/"
     }
   }
   
