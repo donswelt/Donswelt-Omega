@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: Page 2
+title: Page 3
 eleventyExcludeFromCollections: true
 ---
 
