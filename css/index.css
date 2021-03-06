@@ -43,8 +43,6 @@ blockquote {
 a {
     color: var(--brand);
     text-decoration: none;
-}
-a:link, a:visited, a:active {
     border-bottom: 0px;
 }
 a:hover {
@@ -73,9 +71,21 @@ h1 a {
     text-decoration: none;
     border-bottom: 0px;
 }
+h1 a:hover {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 0px;
+}
 @media (prefers-color-scheme: dark) {
     h1 a {
     	color: var(--blue);
+    	text-decoration: none;
+        border-bottom: 0px;
+	}
+	h1 a:hover {
+    	color: var(--blue);
+    	text-decoration: none;
+        border-bottom: 0px;
 	}
 }
 h2 {
@@ -117,7 +127,7 @@ h3 {
     	color: var(--grey);
 	}
 }
-.header a:link, a:visited, a:active {
+.header a {
     border-bottom: 0px;
 }
 .header a:hover {
@@ -147,7 +157,7 @@ h3 {
     color: var(--brand);
     text-decoration: none;
 }
-.meta a:link, a:visited, a:active {
+.meta a {
     border-bottom: 0px;
 }
 .meta a:hover {
@@ -168,7 +178,7 @@ h3 {
     color: var(--brand);
     text-decoration: none;
 }
-.navigation a:link, a:visited, a:active {
+.navigation a {
     border-bottom: 0px;
 }
 .navigation a:hover {
@@ -191,7 +201,7 @@ h3 {
     color: var(--brand);
     text-decoration: none;
 }
-.footer a:link, a:visited, a:active {
+.footer a {
     border-bottom: 0px;
 }
 .footer a:hover {
