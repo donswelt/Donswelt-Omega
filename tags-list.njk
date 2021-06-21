@@ -1,11 +1,11 @@
 ---
 permalink: /tags/
-layout: layout.liquid
+layout: pages.liquid
 eleventyExcludeFromCollections: true
 ---
 <h1>Einmal alles</h1>
 
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}">{{ tag }}</a>
+  <a style="text-transform: capitalize;" href="{{ tagUrl | url }}">{{ tag }}</a></br>
 {% endfor %}
